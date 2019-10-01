@@ -74,10 +74,10 @@ $curl = curl_init();
 $timeout=5;
 
 //Main Airtable View
-$url = 'https://api.airtable.com/v0/app2AdJfucaKUslbm/Projects/?view=Main%20View&api_key=keyOrZG0cWjeoaA2t';
+$url = 'https://api.airtable.com/v0/app2AdJfucaKUslbm/Projects/?view=Main%20View&api_key={API_KEY}';
 
 //Project Airtable View
-//$url = 'https://api.airtable.com/v0/app2AdJfucaKUslbm/Projects/reclkIbsyApHFTNuj?api_key=keyOrZG0cWjeoaA2t';
+//$url = 'https://api.airtable.com/v0/app2AdJfucaKUslbm/Projects/reclkIbsyApHFTNuj?api_key={API_KEY}';
 
 // Initialize curl to get Airtable database information
 curl_setopt($curl,CURLOPT_URL,$url); 
